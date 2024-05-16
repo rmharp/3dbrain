@@ -22,7 +22,7 @@
     "test:watch": "jest --watch",
     "test:watchAll": "jest --watchAll",
     "test:coverage:report": "open ./coverage/lcov-report/index.html",
-    "deploy": "npm run build && gh-pages -d build"
+    "deploy": "npm run build && gh-pages -d public"
   },
   "devDependencies": {
     "autoprefixer": "^7.1.2",
